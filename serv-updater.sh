@@ -223,20 +223,20 @@ echo -e "[ ${green}INFO${NC} ] Updating shadowsocks ..."
     wget -q -O /usr/bin/ss-menu "https://raw.githubusercontent.com/kacalayar/viper/main/menu_all/ss-menu.sh" && chmod +x /usr/bin/ss-menu
 echo -e "[ ${green}INFO${NC} ] Updating shadowsocks-r ..."
     #Update SSR
-    wget -q -O /usr/bin/add-ssr https://raw.githubusercontent.com/kacalayar/viper/main/shadowsocks/add-ssr.sh && chmod +x /usr/bin/add-ssr
-    wget -q -O /usr/bin/del-ssr https://raw.githubusercontent.com/kacalayar/viper/main/shadowsocks/del-ssr.sh && chmod +x /usr/bin/del-ssr
-    wget -q -O /usr/bin/renew-ssr https://raw.githubusercontent.com/kacalayar/viper/main/shadowsocks/renew-ssr.sh && chmod +x /usr/bin/renew-ssr
-    wget -q -O /usr/bin/trial-ssr https://raw.githubusercontent.com/kacalayar/viper/main/shadowsocks/trial-ssr.sh && chmod +x /usr/bin/trial-ssr
+    wget -q -O /usr/bin/add-ssr "https://raw.githubusercontent.com/kacalayar/viper/main/shadowsocks/add-ssr.sh" && chmod +x /usr/bin/add-ssr
+    wget -q -O /usr/bin/del-ssr "https://raw.githubusercontent.com/kacalayar/viper/main/shadowsocks/del-ssr.sh" && chmod +x /usr/bin/del-ssr
+    wget -q -O /usr/bin/renew-ssr "https://raw.githubusercontent.com/kacalayar/viper/main/shadowsocks/renew-ssr.sh" && chmod +x /usr/bin/renew-ssr
+    wget -q -O /usr/bin/trial-ssr "https://raw.githubusercontent.com/kacalayar/viper/main/shadowsocks/trial-ssr.sh" && chmod +x /usr/bin/trial-ssr
 echo -e "[ ${green}INFO${NC} ] Updating l2tp ..."
     #Update IPSEC
-    wget -q -O /usr/bin/add-l2tp https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/add-l2tp.sh && chmod +x /usr/bin/add-l2tp
-    wget -q -O /usr/bin/del-l2tp https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/del-l2tp.sh && chmod +x /usr/bin/del-l2tp
-    wget -q -O /usr/bin/add-pptp https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/add-pptp.sh && chmod +x /usr/bin/add-pptp
-    wget -q -O /usr/bin/del-pptp https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/del-pptp.sh && chmod +x /usr/bin/del-pptp
-    wget -q -O /usr/bin/renew-pptp https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/renew-pptp.sh && chmod +x /usr/bin/renew-pptp
-    wget -q -O /usr/bin/renew-l2tp https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/renew-l2tp.sh && chmod +x /usr/bin/renew-l2tp
-    wget -q -O /usr/bin/trial-pptp https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/trial-pptp.sh && chmod +x /usr/bin/trial-pptp
-    wget -q -O /usr/bin/trial-l2tp https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/trial-l2tp.sh && chmod +x /usr/bin/trial-l2tp
+    wget -q -O /usr/bin/add-l2tp "https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/add-l2tp.sh" && chmod +x /usr/bin/add-l2tp
+    wget -q -O /usr/bin/del-l2tp "https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/del-l2tp.sh" && chmod +x /usr/bin/del-l2tp
+    wget -q -O /usr/bin/add-pptp "https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/add-pptp.sh" && chmod +x /usr/bin/add-pptp
+    wget -q -O /usr/bin/del-pptp "https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/del-pptp.sh" && chmod +x /usr/bin/del-pptp
+    wget -q -O /usr/bin/renew-pptp "https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/renew-pptp.sh" && chmod +x /usr/bin/renew-pptp
+    wget -q -O /usr/bin/renew-l2tp "https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/renew-l2tp.sh" && chmod +x /usr/bin/renew-l2tp
+    wget -q -O /usr/bin/trial-pptp "https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/trial-pptp.sh" && chmod +x /usr/bin/trial-pptp
+    wget -q -O /usr/bin/trial-l2tp "https://raw.githubusercontent.com/kacalayar/viper/main/ipsec/trial-l2tp.sh" && chmod +x /usr/bin/trial-l2tp
 echo -e "[ ${green}INFO${NC} ] Updating menu ..."
     #Update Menu
     wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/kacalayar/viper/main/newmenu.sh" && chmod +x /usr/bin/menu
@@ -255,8 +255,8 @@ echo -e "[ ${green}INFO${NC} ] Updating extension ..."
     wget -q -O /usr/bin/add-host "https://raw.githubusercontent.com/kacalayar/viper/main/dll/add-host.sh" && chmod +x /usr/bin/add-host
     wget -q -O /usr/bin/akill-ws "https://raw.githubusercontent.com/kacalayar/viper/main/dll/akill-ws.sh" && chmod +x /usr/bin/akill-ws
     wget -q -O /usr/bin/autokill-ws "https://raw.githubusercontent.com/kacalayar/viper/main/dll/autokill-ws.sh" && chmod +x /usr/bin/autokill-ws
-    wget -q -O /usr/bin/xp https://raw.githubusercontent.com/kacalayar/viper/main/dll/xp.sh && chmod +x /usr/bin/xp
-    wget -q -O /usr/bin/info https://raw.githubusercontent.com/kacalayar/viper/main/dll/info.sh && chmod +x /usr/bin/info
+    wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/kacalayar/viper/main/dll/xp.sh" && chmod +x /usr/bin/xp
+    wget -q -O /usr/bin/info "https://raw.githubusercontent.com/kacalayar/viper/main/dll/info.sh" && chmod +x /usr/bin/info
     
     #Update Set-BR
     wget -q -O /usr/bin/cleaner "https://raw.githubusercontent.com/kacalayar/viper/main/dll/logcleaner.sh" && chmod +x /usr/bin/cleaner
