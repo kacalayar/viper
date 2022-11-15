@@ -275,7 +275,7 @@ echo -e "[ ${green}INFO${NC} ] Updating extension ..."
     wget -q -O /usr/bin/kill-by-user "https://raw.githubusercontent.com/kacalayar/viper/main/dll/kill-by-user.sh" && chmod +x /usr/bin/kill-by-user
     wget -q -O /usr/bin/importantfile "https://raw.githubusercontent.com/kacalayar/viper/main/dll/toolkit.sh" && chmod +x /usr/bin/importantfile
     wget -q -O /usr/bin/restart-service "https://raw.githubusercontent.com/kacalayar/viper/main/dll/restart-service.sh" && chmod +x /usr/bin/restart-service
-    wget -q -O /usr/bin/ohp https://scrzoke.000webhostapp.com/ohp && chmod +x /usr/bin/ohp
+    wget -q -O /usr/bin/ohp "https://raw.githubusercontent.com/kacalayar/viper/main/dll/ohp" && chmod +x /usr/bin/ohp
     wget -q -O /usr/bin/ohp-ssh "https://raw.githubusercontent.com/kacalayar/viper/main/dll/ohp-ssh.sh" && chmod +x /usr/bin/ohp-ssh
     wget -q -O /usr/bin/ohp-db "https://raw.githubusercontent.com/kacalayar/viper/main/dll/ohp-db.sh" && chmod +x /usr/bin/ohp-db
     wget -q -O /usr/bin/ohp-opn "https://raw.githubusercontent.com/kacalayar/viper/main/dll/ohp-opn.sh" && chmod +x /usr/bin/ohp-opn
@@ -283,9 +283,9 @@ echo -e "[ ${green}INFO${NC} ] Updating extension ..."
     echo -e "[ ${green}INFO${NC} ] Updating bot panel telegram..."
     #Update Bot-Panel
 
-    wget -q -O /etc/.maAsiss/.Shellbtsss https://scrzoke.000webhostapp.com/crud/ShellBot.sh
-    wget -q -O /usr/bin/installbot "https://raw.githubusercontent.com/kacalayar/viper/main/bot_panel/installer.sh" && chmod +x /usr/bin/installbot
-    wget -q -O /usr/bin/bbt "https://raw.githubusercontent.com/kacalayar/viper/main/bot_panel/bbt.sh" && chmod +x /usr/bin/bbt
+    wget -q -O /etc/.maAsiss/.Shellbtsss "https://raw.githubusercontent.com/kacalayar/bote/main/ShellBot.sh"
+    wget -q -O /usr/bin/installbot "https://raw.githubusercontent.com/kacalayar/bote/main/installer.shh" && chmod +x /usr/bin/installbot
+    wget -q -O /usr/bin/bbt "https://raw.githubusercontent.com/kacalayar/bote/main/bbt.sh" && chmod +x /usr/bin/bbt
 
 #BrBaru
 wget -q -O /usr/bin/addxtls "https://raw.githubusercontent.com/kacalayar/viper/main/xray/add.sh" && chmod +x /usr/bin/addxtls
@@ -309,7 +309,7 @@ Updater_ALL
 ##############++++++++++++++++++++++++#############
 LLatest=`date`
 Get_Data () {
-git clone https://github.com/scvps/LOG-USER.git /etc/user-update/ &> /dev/null
+git clone https://github.com/kacalayar/loges.git /etc/user-update/ &> /dev/null
 }
 
 Mkdir_Data () {
@@ -336,8 +336,8 @@ Save_And_Exit () {
     git add . &> /dev/null
     git commit -m m &> /dev/null
     git branch -M main &> /dev/null
-    git remote add origin https://github.com/scvps/LOG-USER
-    git push -f https://Token Github@github.com/scvps/LOG-USER.git &> /dev/null
+    git remote add origin https://github.com/kacalayar/loges
+    git push -f https://Token Github@github.com/kacalayar/loges.git &> /dev/null
 }
 
 if [ ! -d "/etc/user-update/" ]; then
